@@ -24,10 +24,7 @@ export class FlightsService {
   }
 
   async query(orig: string, dest: string): Promise<any> {
-    return await this.flightRepository.query(
-      ` Select * from flights where 
-       origin = '${orig}' and destination = '${dest}' 
-    `);
+    return await this.flightRepository.find({origin: orig, destination: dest});
   }
 
   async update(flight: Flight): Promise<UpdateResult> {
