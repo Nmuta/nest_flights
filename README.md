@@ -23,6 +23,3 @@ Then, run Nest as usual:
 or 
 
 `yarn start`
-
-
-
