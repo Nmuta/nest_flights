@@ -11,7 +11,7 @@ import { FlightsModule } from './flights/flights.module';
       type: 'postgres',
       host: 'localhost',
       port: 5432,
-      username: 'p2873541',
+      username: 'database-user',
       password: '',
       database: 'transportation',
       entities: [Cars, Flights],
