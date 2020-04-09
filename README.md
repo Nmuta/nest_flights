@@ -23,7 +23,3 @@ Then, run Nest as usual:
 or 
 
 `yarn start`
-
-# Heroku info
-https://enigmatic-dawn-00003.herokuapp.com/ | https://git.heroku.com/enigmatic-dawn-00003.git
-
