@@ -24,11 +24,11 @@ export class FlightsService {
   }
 
   async getFlightOrigins(): Promise<String[]> {
-    return this.flightRepository.query("Select DISTINCT origin from flights");
+    return this.flightRepository.query("SELECT DISTINCT origin FROM flights");
   }
 
   async getFlightDestinations(): Promise<String[]> {
-    return this.flightRepository.query("Select DISTINCT destination from flights");
+    return this.flightRepository.query("SELECT DISTINCT destination FROM flights");
   }
 
   async query(orig: string, dest: string): Promise<any> {
